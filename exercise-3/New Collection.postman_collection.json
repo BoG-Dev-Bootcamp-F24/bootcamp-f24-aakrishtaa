@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "4b1b3232-99c7-4a9b-9a50-630aeba5732d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38409848"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "jobs",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "aak",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://developer.spotify.com/documentation/web-api",
+					"protocol": "https",
+					"host": [
+						"developer",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"documentation",
+						"web-api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
